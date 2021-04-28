@@ -2,7 +2,7 @@ program Win9595h;
 
 uses
   Forms,
-  MainF in 'MainF.PAS' {MainForm};
+  Mainf in '\EIGENE~1\ANWEND~1\DELPHI\Win959~1\MainF.PAS' {MainForm};
 
 {$R *.RES}
 

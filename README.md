@@ -6,4 +6,8 @@ Every year, to mark the occasion, I retrieve this machine from storage and set i
 
 I have set aside approximately four days for this and have hence created this handy timer to remind me when my [#95HoursWithWindows95](https://twitter.com/hashtag/95HoursWithWindows95) are up. It was written in Delphi 1 on the machine in question.
 
-![Running in Delphi 1 IDE on Windows 95](Screenshot.png)
+![Running in Delphi 1 IDE on Windows 95](/images/Screenshot.png)
+
+Accessing the internet from the machine works in a very limited fashion. I tried logging on to github.com to submit this code, but failed. At least I could Google instructions on how to upgrade Windows 95 and the results page was rendered in a sort-of legible fashion.
+
+![Internet on Windows 95](/images/Internet.png)
