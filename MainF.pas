@@ -12,8 +12,6 @@ type
     TimeLeftTimer: TTimer;
     procedure UpdateTimeLeft(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-  private
-    procedure AdjustSize;
   end;
 
 var
@@ -88,12 +86,7 @@ begin
                            Format('H', 'hour') + ', ' +
                            Format('N', 'minute') + ', ' +
                            Format('S', 'second') + ' ' + LabelSuffix;
-  AdjustSize;
-end;
-
-procedure TMainForm.AdjustSize;
-begin
-  ClientWidth  := TimeLeftLabel.Left + TimeLeftLabel.Width  + TimeLeftLabel.Left;
+   ClientWidth := TimeLeftLabel.Left + TimeLeftLabel.Width  + TimeLeftLabel.Left;
 end;
 
 
